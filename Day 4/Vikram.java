@@ -1,0 +1,11 @@
+class Vikram
+            {
+                  public static void main(String[]args)
+                  {
+                   
+                        System.out.println("Once upon a time there ... there lived a ghost!");
+
+                   }
+
+
+}
