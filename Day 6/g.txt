@@ -1,0 +1,11 @@
+| Shortcut                          | Action                   |
+| --------------------------------- | ------------------------ |
+| `Ctrl + B`                        | Bold text                |
+| `Ctrl + I`                        | Italic text              |
+| `Ctrl + U`                        | Underline text           |
+| `Ctrl + Shift + >`                | Increase font size       |
+| `Ctrl + Shift + <`                | Decrease font size       |
+| `Ctrl + Home`                     | Go to start of document  |
+| `Ctrl + End`                      | Go to end of document    |
+| `Ctrl + Left/Right Arrow`         | Move cursor word by word |
+| `Ctrl + Shift + Left/Right Arrow` | Select word by word      |

@@ -1,0 +1,21 @@
+| Shortcut           | Action                               |
+| ------------------ | ------------------------------------ |
+| `Ctrl + C`         | Copy selected item                   |
+| `Ctrl + X`         | Cut selected item                    |
+| `Ctrl + V`         | Paste copied/cut item                |
+| `Ctrl + Z`         | Undo an action                       |
+| `Ctrl + Y`         | Redo an action                       |
+| `Ctrl + A`         | Select all items                     |
+| `Ctrl + S`         | Save current document                |
+| `Ctrl + P`         | Print current document               |
+| `Alt + F4`         | Close the active window              |
+| `Alt + Tab`        | Switch between open apps             |
+| `Win + D`          | Show or hide desktop                 |
+| `Win + E`          | Open File Explorer                   |
+| `Win + L`          | Lock your PC                         |
+| `Win + I`          | Open Settings                        |
+| `Win + R`          | Open Run dialog                      |
+| `Win + S`          | Open search                          |
+| `Win + Shift + S`  | Take a screenshot of a selected area |
+| `Win + V`          | Open clipboard history (if enabled)  |
+| `Win + Arrow Keys` | Snap windows to sides/corners        |

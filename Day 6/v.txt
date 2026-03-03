@@ -1,0 +1,11 @@
+| Shortcut             | Action                            |
+| -------------------- | --------------------------------- |
+| `Ctrl + T`           | Open new tab                      |
+| `Ctrl + W`           | Close current tab                 |
+| `Ctrl + Shift + T`   | Reopen closed tab                 |
+| `Ctrl + Tab`         | Switch to next tab                |
+| `Ctrl + Shift + Tab` | Switch to previous tab            |
+| `Ctrl + L`           | Focus on address bar              |
+| `Ctrl + D`           | Bookmark current page             |
+| `F5`                 | Refresh page                      |
+| `Ctrl + Shift + N`   | Open new incognito/private window |

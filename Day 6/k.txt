@@ -1,0 +1,7 @@
+| Shortcut           | Action                                |
+| ------------------ | ------------------------------------- |
+| `Ctrl + N`         | Open new window                       |
+| `Ctrl + Shift + N` | Create new folder                     |
+| `Alt + Enter`      | Show properties of selected item      |
+| `F2`               | Rename selected item                  |
+| `Ctrl + Shift + E` | Expand all folders in navigation pane |
