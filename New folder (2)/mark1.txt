@@ -1,0 +1,40 @@
+DELIMITER $$
+
+CREATE FUNCTION calc_SI(p DOUBLE, r DOUBLE, t DOUBLE)
+RETURNS DOUBLE
+DETERMINISTIC
+BEGIN
+    DECLARE si DOUBLE;
+    SET si = (p * r * t) / 100;
+    RETURN si;
+END $$
+
+DELIMITER ;
+
+DELIMITER $$
+
+CREATE PROCEDURE show_interest(
+    IN p DOUBLE,
+    IN r DOUBLE,
+    IN t DOUBLE
+)
+BEGIN
+    DECLARE si DOUBLE;
+    DECLARE total DOUBLE;
+
+    -- Call function
+    SET si = calc_SI(p, r, t);
+
+    -- Calculate total amount
+    SET total = p + si;
+
+    -- Display output
+    SELECT 
+        p AS 'Principal Amount',
+        si AS 'Simple Interest',
+        total AS 'Total Amount';
+END $$
+
+DELIMITER ;
+
+CALL show_interest(10000, 5, 2);
